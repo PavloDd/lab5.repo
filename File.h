@@ -13,8 +13,8 @@ public:
 	File(std::string aName, std::string aExtention, std::string aSize, std::string aType);
 
 	void show_File();
-	void add_file(File& a);
-	void show_folder();
+	void add_File(File& a);
+	void show_Folder();
 	void output();
 
 };
