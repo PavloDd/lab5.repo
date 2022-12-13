@@ -15,6 +15,6 @@ public:
 	void show_File();
 	void add_File(File& a);
 	void show_Folder();
-	void output();
+	void output_Folder();
 
 };
