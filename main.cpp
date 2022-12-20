@@ -12,17 +12,17 @@ int main() {
 	File Folder_4("PHOTO_2", "-", "599mb", "folder");
 	File Folder_3("PHOTO_3", "-", "893mb", "folder");
 
-	Folder_1.add_File(File_1);
-	Folder_1.add_File(File_2);
-	Folder_1.add_File(File_3);
-	Folder_4.add_File(File_4);
-	Folder_4.add_File(File_5);
-	Folder_3.add_File(File_1);
-	Folder_3.add_File(File_4);
-	Folder_3.add_File(File_3);
-	Folder_3.add_File(File_4);
-	Folder_3.add_File(File_5);
-	Folder_3.add_File(Folder_1);
-	Folder_3.add_File(Folder_4);
-	Folder_3.output_Folder();
-};
+	Folder_1.add_file(File_1);
+	Folder_1.add_file(File_2);
+	Folder_1.add_file(File_3);
+	Folder_4.add_file(File_4);
+	Folder_4.add_file(File_5);
+	Folder_3.add_file(File_1);
+	Folder_3.add_file(File_4);
+	Folder_3.add_file(File_3);
+	Folder_3.add_file(File_4);
+	Folder_3.add_file(File_5);
+	Folder_3.add_file(Folder_1);
+	Folder_3.add_file(Folder_4);
+	Folder_3.output_folder();
+}
