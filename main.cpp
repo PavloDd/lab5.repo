@@ -24,5 +24,5 @@ int main() {
 	Folder_3.add_file(File_5);
 	Folder_3.add_file(Folder_1);
 	Folder_3.add_file(Folder_4);
-	Folder_3.output();
-};
+	Folder_3.output_folder();
+}
