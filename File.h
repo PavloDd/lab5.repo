@@ -10,11 +10,11 @@ public:
 	string type;
 	vector<File>Folder;
 	File();
-	File(std::string aName, std::string aExtention, std::string aSize, std::string aType);
+	File(string Name, string Extention, string Size, string Type);
 
-	void show_File();
-	void add_File(File& a);
-	void show_Folder();
-	void output_Folder();
+	void show_file();
+	void add_file(File& a);
+	void show_folder();
+	void output_folder();
 
 };
